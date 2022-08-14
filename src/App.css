@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.todoBackground {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  box-shadow: 0 0 10px #ccc;
+  height: 300px;
+}
+.todoBackground h2{
+  margin: auto;
+  padding-top: 60px;
+  color: #fff;
+  text-align: center;
+  font-size: 35px;
+}
+/* FOOTER */
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 20px;
+  box-sizing: border-box;
+}
+footer .footer-box {
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+  color: var(--quinary-color);
+}
+footer .footer-box p a {
+  text-decoration: none;
+  color: var(--senary-color);
+}

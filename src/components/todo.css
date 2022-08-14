@@ -1,0 +1,53 @@
+.todoInfo {
+  padding: 10px 0 10px 0;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  align-items: center;
+}
+.todoBoxBtn button {
+  border: none;
+  padding: 5px;
+  margin: 2px;
+  border-radius: 20px;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  color: #fff;
+}
+.todoBoxBtn button:nth-child(1) {
+  padding: -1px 0;
+  background-color: rgb(42, 184, 113);
+}
+.todoBoxBtn button:nth-child(1) i {
+  font-size: 16px;
+  padding: -2px 0;
+}
+.todoBoxBtn button:nth-child(2) {
+  background-color: rgb(247, 55, 55);
+}
+/* Css listado */
+.todoUpdateForm {
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.todoUpdateForm input {
+  font-size: 18px;
+  border: none;
+  padding: 18px 0 15px 0;
+  justify-content: space-between;
+}
+.todoUpdateForm button {
+  border: none;
+  padding: 5px;
+  margin: 2px;
+  border-radius: 20px;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  background-color: rgb(37, 150, 241);
+  color: rgb(255, 255, 255);
+}

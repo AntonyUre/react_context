@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main {
+  /* background-image: url(/img/back.png); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+}
+
+.container-btn {
+  width: 330px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.container-btn img {
+  border-radius: 20px;
+  width: 100px;
+  margin: auto;
+}
+.container-btn p {
+  text-align: center;
+  margin-top: 20px;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(234, 234, 250);
+}
+.container-btn span {
+  text-align: center;
+  margin-bottom: 40px;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(234, 234, 250);
+}
+.container-btn .box-btn {
+  display: inline;
+  display: flex;
+  justify-content: space-between;
+}
+.container-btn .box-btn .btn {
+  text-decoration: none;
+  background: rgb(75, 3, 158);
+  color: #fff;
+  padding: 20px 30px;
+  border-radius: 15px;
+}
+
+/* Css Login */
+
+.box-input input {
+  width: 100%;
+  padding: 18px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  background: rgb(234, 234, 250);
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+}
+.box-btn .btn-contact {
+  text-decoration: none;
+  background: rgb(75, 3, 158);
+  color: #fff;
+  padding: 20px 43%;
+  border-radius: 15px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.btn-back {
+  position: absolute;
+  left: 50%;
+  background: rgb(75, 3, 158);
+  padding: 15px 18px;
+  text-decoration: none;
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+  color: #fff;
+  border-radius: 50%;
+  top: 100px;
+  transform: translateX(-550px);
+}
+/* Login */
+.box-input label {
+  color: rgb(58, 58, 58);
+  padding-left: 20px;
+}
+.btn-form {
+  text-decoration: none;
+  background: rgb(75, 3, 158);
+  color: #fff;
+  padding: 20px 43%;
+  border-radius: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  font-size: 16px;
+}
+@media screen and (max-width: 768px) {
+  .btn-back {
+    position: absolute;
+    left: 50%;
+    background: rgb(75, 3, 158);
+    padding: 15px 18px;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    color: #fff;
+    border-radius: 50%;
+    top: 20px;
+    transform: translateX(-170px);
+  }
+}
+/* CSS STYLE MOUSE */
+#mouse-circle {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  background: #f5f5f5;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 1000;
+  transition: background 0.3s, transform 0.3s;
+  mix-blend-mode: difference;
+  filter: hue-rotate(5deg);
+}
